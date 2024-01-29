@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    
+  }
+  
+/* Header/logo Title */
+.header {
+    padding: 30px;
+    text-align: left;
+    background-image: url(../images/leaves-background.jpg);
+    background-size:100%;
+    font-size: 40px;
+    color: white;
+    padding-top: 50px;
+  }
+  *{
+    font-family: 'Playfair Display', serif;
+}
+/*navigation*/
+.navbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#17252a;
+}
+.navbar li{
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.navbar li a:hover:not(.active) {
+    background-color:#def2f1;
+    color: #17252a;
+  }
+  
+.active {
+    background-color:#3aafa9
+    
+  }
+/*culture*/
+.culture {
+  padding: 4em 0 0 0;
+  background-color: #f9f9f9;
+  
+}
+
+.culture-heading {
+  text-align: center;
+
+}
+.culture-heading h2{
+  font-family: 'Francois One', sans-serif;
+  margin: 0px;
+  color: #2DCB74;
+  font-size: 35px;
+}
+.culture-heading p{
+  font-size: 18px;
+  margin: 2em auto 0;
+  font-family: 'Francois One', sans-serif;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: justify;
+}
+
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.culture-bottom {
+  margin: 50px 100px;
+
+}
+.culture-bottom img{
+  width: 100%;
+  vertical-align: middle;
+  
+
+}
+.culture-bottom p {
+  font-size: 18px;
+  color: #353535;
+  font-family: 'Francois One', sans-serif;
+  padding-left: 70px;
+  padding-right: 100px;
+  text-align: justify;
+  margin-top: 30px;
+  
+}
+
+/*team*/
+.team{
+  padding: 30px 0;
+  background-color: #dbac76;
+}
+.team .container .heading{
+  text-align: center;
+}
+.team .container .heading h3{
+  color: #fff;
+  font-family: 'Francois One', sans-serif;
+  margin: 0px;
+  font-size: 25px;
+}
+.team .container .heading p{
+  color: #fff;
+  font-family: 'Francois One', sans-serif;
+  
+}
+.team-member{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+.team .container .team-member .member1,.member2,.member3{
+  width: 25%;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+.team .container .team-member img{
+  width: 100%;
+  vertical-align: center;
+  border: 0;
+}
+.team .container .team-member {
+  font-size: 1.4em;
+  color: #FFF;
+  margin: 1em 0 0 0;
+  display: flex;
+}
+
+.team .container .team-member h4,p{
+  text-align: center;
+  font-family: 'Francois One', sans-serif;
+
+}
+
+@media screen and (max-width: 768px){
+  .team-member{
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+  }
+  .member1 img,.member2 img,.member3 img{
+    min-width: 300px;
+    width: 100%;
+  }
+  .member1 p,.member2 p,.member3 p{
+    width: 300px;
+    text-align: justify;
+  }
+  .member1 h4,.member2 h4,.member3 h4{
+    width: 300px;
+    text-align: justify;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:900px){
+  .culture-heading p{
+    padding: 0px;
+  }
+}
+@media (max-width:900px){
+  .culture-bottom p{
+    padding: 0px;
+  }
+}
+@media (max-width:900px){
+  .culture-bottom{
+    padding: 0px;
+    margin: 0px;
+  }
+}
+

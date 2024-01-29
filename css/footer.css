@@ -1,0 +1,124 @@
+/*footer*/
+.footer-column{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+  }
+  .footer-column h4{
+    color: #2DCB74;
+      font-size: 2em;
+      margin: 0 0 1em 0;
+  }
+  
+  .footer .cloumn1{
+    width: 25%;
+  }
+  .footer .cloumn2{
+    width: 50%;
+  }
+  .footer .cloumn3{
+    width:25%;
+  }
+  
+  /*footer-column1-list*/
+  .footer .container{
+    background-color: rgb(242, 242, 242);
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .footer-column ul {
+    padding: 0;
+    margin: 0;
+  }
+  .footer-column ul li {
+    display: block;
+    margin: 1em 0;
+  }
+  .footer-column ul li a {
+    color: #353535;
+    font-size: 18px;
+    font-family: 'Francois One', sans-serif;
+    text-decoration: none;
+  }
+  .footer-column ul li a:hover {
+    color: lightsalmon;
+    
+  }
+  /*footer-column2*/
+  .footer-column .column2 p{
+    font-size: 18px;
+    font-family: 'Francois One', sans-serif;
+    color: #353535;
+    margin: 0;
+    line-height: 1.8em;
+  
+  }
+  .footer-column form input[type="email"] {
+    background: #fff;
+    padding: 10px 23px;
+    color: #282828;
+    font-size: 18px;
+    width: 300px;
+    font-weight: 400;
+    border: 1px solid #ebebeb;
+    margin: 0 0 1em 0;
+  }
+  .footer-column form input[type="submit"] {
+    border: solid 2px #353535;
+    color: #353535;
+    font-size: 15px;
+    padding:10px 5px;
+    margin-left: 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background: none;
+  }
+  .footer-column form input[type="submit"]:hover{
+    color: lightsalmon;
+    border: solid 2px lightsalmon;
+    
+  }
+  
+  /*footer-column3*/
+  .news-list h6{
+    font-family: 'Francois One', sans-serif;
+    font-size: 18px;
+  
+    
+  }
+  .news-list h6 a {
+    color: #353535;
+    font-family: 'Francois One', sans-serif;
+    font-size: 18px;
+  
+  }
+  
+  .news-list h6 a:hover {
+    color: lightsalmon;
+    font-family: 'Francois One', sans-serif;
+    font-size: 18px;
+  }
+  #copyright{
+    text-align: center;
+  }
+  
+  
+
+@media screen and (max-width: 768px) {
+    .navbar li.right, 
+    .navbar li {float: none;}
+
+@media screen and (max-width: 768px) {
+  .footer-column{
+  
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+    
+} 

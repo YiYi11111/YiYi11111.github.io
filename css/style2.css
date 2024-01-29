@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+  }
+/* Header/logo Title */
+.header {
+    padding: 30px;
+    text-align: left;
+    background-image: url(../images/booking-background.jpg);
+    background-repeat: repeat;
+    background-size:100%;
+    font-size: 40px;
+    color: white;
+    padding-top: 50px;
+  }
+/*navigation*/
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#17252a;
+  }
+.navbar li{
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+
+.navbar li a:hover:not(.active) {
+  background-color:#def2f1;
+  color: #17252a;
+  }
+  
+.active {
+  background-color:#3aafa9
+    
+  }
+
+/*container1*/
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 40px;
+  
+}
+.room-details {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly
+  
+}
+.room1, .room2 ,.room3{
+  background-color: #def2f1;
+  width: 32%;
+  padding-bottom: 30px;
+}
+.room-heading h1,.room-heading p{
+  text-align: center;
+  color: #2DCB74;
+
+}
+.room-img img{
+  width: 100%;
+}
+.booking-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.booking-button button{
+  width: 100px;
+  background-color: transparent;
+  border: black soild 2px ;
+
+}
+.booking-button button:hover{
+  color: lightsalmon;
+  border: lightsalmon soild 2px;
+}
+.room-details {
+  padding-bottom: 10px;
+}
+/*container2*/
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 40px;
+  
+}
+.room-details {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly
+  
+}
+.ticket1, .ticket2 ,.ticket3{
+  background-color:lightsteelblue;
+  width: 32%;
+  padding-bottom: 30px;
+}
+.ticket-heading h1,.ticket-heading p{
+  text-align: center;
+  color: steelblue;
+
+}
+.ticket-img img{
+  width: 100%;
+}
+.booking-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.booking-button button{
+  width: 100px;
+  background-color: transparent;
+  border: black soild 2px ;
+
+}
+.booking-button button:hover{
+  color: lightsalmon;
+  border: lightsalmon soild 2px;
+}
+
+
+
+
+@media (max-width: 768px){
+  .container1, .container2{
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .room1, .room2 ,.room3{
+    width: 100%;
+    margin-top: 10px;
+  
+  }
+  .ticket1, .ticket2 ,.ticket3{
+    width: 100%;
+    margin-top: 10px;
+  
+  }
+}
+
+.pic-more{
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background:rgba(119, 136, 153, 0.578);
+}
+.pic-more img{
+  z-index: 11;
+  width: 800px;
+  height: 800px;
+  position: fixed;
+  top: 20%;
+  margin-left: -150px;
+  margin-top: -150px;
+  left: 35%;
+}
+
+
+
+
+
+

@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+  }
+  
+/* Header/logo Title */
+.header {
+    padding: 30px;
+    text-align: left;
+    background-image: url(../images/contact-background.jpg);
+    background-size:100%;
+    font-size: 40px;
+    color: white;
+    padding-top: 50px;
+  }
+  *{
+    font-family: 'Playfair Display', serif;
+}
+/*navigation*/
+.navbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#17252a;
+}
+.navbar li{
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.navbar li a:hover:not(.active) {
+    background-color:#def2f1;
+    color: #17252a;
+  }
+  
+.active {
+    background-color:#3aafa9
+    
+  }
+
+  /*container*/
+  
+  .container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+  }
+
+  .container:before {
+    display: table;
+  }
+  .container:after{
+    clear:both;
+    display: table;
+    content: "";
+
+  }
+  .contact-heading{
+    text-align: center;
+  }
+
+  .map iframe{
+      width: 100%;
+      height: 340px;
+  }
+  .contact h4{
+    color: #2DCB74;
+    font-size: 1.2em;
+  }
+  .contact-form input[type="text"] {
+    display: flex; 
+    flex-direction: row;
+    background: none;
+    border: 1.5px solid #CBCBCB;
+    width: 31.9%;
+    outline: none;
+    padding: 10px 15px 10px 15px;
+    font-size: .9em;
+    color: #111111;
+    margin-bottom: 1.5em;
+  }
+
+  .contact-form textarea {
+    background: none;
+    border: 1.5px solid #CBCBCB;
+    width: 100%;
+    display: block;
+    height: 150px;
+    outline: none;
+    font-size: 0.9em;
+    color: #111111;
+    resize: none;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 1em;
+}
+
+.button {
+    color: #FFF;
+    border: none;
+    background: #2DCB74;
+    padding: .5em 1.5em;
+    font-size: 1em;
+    outline: none;
+
+}
+.button:hover{
+  background-color: lightsalmon;
+
+}
+

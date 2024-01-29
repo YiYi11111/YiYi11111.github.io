@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    
+  }
+  
+/* Header/logo Title */
+.header {
+    padding: 30px;
+    text-align: left;
+    background-image: url(../images/about-background.jpg);
+    background-size:100%;
+    font-size: 40px;
+    color: white;
+    padding-top: 50px;
+  }
+  *{
+    font-family: 'Playfair Display', serif;
+}
+/*navigation*/
+.navbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#17252a;
+}
+.navbar li{
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.navbar li a:hover:not(.active) {
+    background-color:#def2f1;
+    color: #17252a;
+  }
+  
+.active {
+    background-color:#3aafa9
+    
+  }
